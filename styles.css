@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li button {
+    background: red;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background: darkred;
+}
+
+
+li .edit-btn {
+    background: orange;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+li .edit-btn:hover {
+    background: darkorange;
+}
+
+/* Adicione este bloco ao final do arquivo styles.css */
+
+li {
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+li .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+li .edit-btn,
+li .delete-btn {
+    background: orange;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li .delete-btn {
+    background: red;
+}
+
+li .edit-btn:hover {
+    background: darkorange;
+}
+
+li .delete-btn:hover {
+    background: darkred;
+}
+/* Adicione este bloco ao final do arquivo styles.css */
+
+li {
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+li span.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+li .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+li .check-btn,
+li .edit-btn,
+li .delete-btn {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li .check-btn {
+    background: green;
+}
+
+li .edit-btn {
+    background: orange;
+}
+
+li .delete-btn {
+    background: red;
+}
+
+li .check-btn:hover {
+    background: darkgreen;
+}
+
+li .edit-btn:hover {
+    background: darkorange;
+}
+
+li .delete-btn:hover {
+    background: darkred;
+}
